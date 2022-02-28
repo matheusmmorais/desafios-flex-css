@@ -1,0 +1,37 @@
+*{
+    margin: auto;
+  }
+  
+  header {
+    padding: 4rem;
+    background-color: lightgrey;
+  }
+  
+  nav {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display:flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+  }
+  
+  ul li:last-child{
+    background:black;
+    padding: .8rem;
+    align-items: center;
+    
+  }
+  
+  ul li:last-child a{
+    color: white;
+    text-decoration:none;
+  }
+  
+  ul li a{
+    text-decoration:none;
+    color: black;
+  }

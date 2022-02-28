@@ -1,0 +1,22 @@
+*{
+  margin: auto;
+}
+
+.conteiner {
+display:flex;
+gap: 1rem;
+
+}
+
+aside,main {
+border: 1px solid;
+height: 98vh;
+}
+
+aside {
+flex-basis: 50%;
+}
+
+main {
+flex-basis: 50%;
+}
